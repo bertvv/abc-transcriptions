@@ -30,6 +30,7 @@ eps2jpg_cmd := convert -density 300 -resample 300x300
 sources := $(wildcard abc/*.abc)
 ps_files := $(patsubst abc/%.abc,ps/%.ps,$(sources))
 pdf_files := $(patsubst abc/%.abc,pdf/%.pdf,$(sources))
+midi_files := $(patsubst abc/%.abc,mid/%.mid,$(sources))
 
 ## --------- Build targets ----------------------------------------------------
 
@@ -37,6 +38,8 @@ help: ## Show this help message (default)
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "\033[36m%-20s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 all-pdf: $(pdf_files) ## Generate PDF sheet music for all tunes
+
+all-midi: $(midi_files) ## Generate a MIDI file for all tunes
 
 all: $(pdf_files) ## Synonym for all-pdf
 
@@ -59,3 +62,7 @@ pdf/%.pdf: ps/%.ps
 # eps/%.eps: abc/%.abc
 # 	[ -d eps ] || mkdir eps
 # 	$(abc2eps_cmd) $@ $<
+
+mid/%.mid: abc/%.abc
+	[ -d mid ] || mkdir mid
+	$(abc2midi_cmd) $< -o $@
