@@ -20,7 +20,7 @@ dateformat      "\%Y-\%m-\%d \%H:\%M"
 dblrepbar       :][:
 decoerr         yes
 dynalign        yes
-footer          "Bert Van Vreckem $d		CreativeCommons CC-BY-SA"
+footer          "Bert Van Vreckem $D		CreativeCommons CC-BY-SA"
 footerfont      NimbusRoman-Regular utf-8 10.0
 flatbeams       no
 gchordbox       no
