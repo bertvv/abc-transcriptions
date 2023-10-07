@@ -1,0 +1,104 @@
+abc2pscompat    no
+alignbars       0
+aligncomposer   2
+annotationfont  NimbusSans-Regular utf-8 12.0
+autoclef        yes
+barsperstaff    0
+bgcolor         ""
+botmargin       1.00cm
+breaklimit      0.70
+breakoneoln     yes
+bstemdown       no
+cancelkey       yes
+combinevoices   0
+composerfont    NimbusSans-Italic utf-8 14.0
+composerspace   6.00
+contbarnb       no
+continueall     no
+custos          no
+dateformat      "\%Y-\%m-\%d \%H:\%M"
+dblrepbar       :][:
+decoerr         yes
+dynalign        yes
+footer          "Bert Van Vreckem $d		CreativeCommons CC-BY-SA"
+footerfont      NimbusRoman-Regular utf-8 10.0
+flatbeams       no
+gchordbox       no
+gchordfont      NimbusSans-Regular utf-8 12.0
+graceslurs      yes
+graceword       no
+gracespace      6.5 8.0 12.0
+gutter          0.00
+header          ""
+headerfont      NimbusRoman-Regular utf-8 16.0
+historyfont     NimbusRoman-Regular utf-8 16.0
+hyphencont      yes
+indent          0.00
+infofont        NimbusSans-Italic utf-8 14.0
+infoline        no
+infospace       12.00
+keywarn         yes
+landscape       no
+leftmargin      1.80cm
+lineskipfac     1.10
+linewarn        yes
+maxshrink       0.65
+maxstaffsep     2000.00
+maxsysstaffsep  2000.00
+measurebox      no
+measurefirst    1
+measurefont     NimbusSans-Italic utf-8 14.0
+measurenb       -1
+micronewps      no
+%musicfont       NimbusSans-Italic utf-8 12.0
+musicspace      6.00
+notespacingfactor 1.41
+oneperpage      no
+pageheight      29.70cm
+pagewidth       21.00cm
+pagescale       1.00
+parskipfac      0.40
+partsbox        yes
+partsfont       NimbusRoman-Regular utf-8 15.0
+partsspace      8.00
+pdfmark         0
+rbdbstop        yes
+rbmax           4
+rbmin           2
+repeatfont      NimbusRoman-Regular utf-8 13.0
+rightmargin     1.80cm
+setdefl         no
+shiftunison     0
+slurheight      1.00
+splittune       0
+squarebreve     no
+staffnonote     1
+staffsep        46.00
+staffwidth      17.40cm
+stemheight      21.00
+straightflags   no
+stretchlast     0.25
+stretchstaff    yes
+subtitlefont    NimbusSans-Regular utf-8 16.0
+subtitlespace   3.00
+sysstaffsep     34.00
+tempofont       NimbusRoman-Bold utf-8 15.0
+textfont        NimbusRoman-Regular utf-8 16.0
+textoption      0
+textspace       36pt
+titlecaps       no
+titlefont       NimbusSans-Bold utf-8 20.0
+titleformat     ""
+titleleft       yes
+titlespace      6.00
+titletrim       yes
+timewarn        yes
+topmargin       1.00cm
+topspace        22.00
+tuplets         0 0 0 0
+vocalfont       NimbusRoman-Regular utf-8 13.0
+vocalspace      10.00
+voicefont       NimbusRoman-Bold utf-8 13.0
+wordsfont       NimbusRoman-Regular utf-8 16.0
+wordsspace      12.00
+writefields     ABCDHIMNOPQRSTWwZ
