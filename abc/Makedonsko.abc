@@ -31,37 +31,3 @@ V:1
 "Bb"B2A "Gm"G2B2 | "Dm"A2G F2G2 | "A7"A2G FEED | ("Dm"D3   D4) !D.C.! :|
 V:2
     d2c     B2d2 |     c2B A2B2 |     A2A A2A2 |      D2^C DEFG       :| 
-
-X:2
-T:Makedonsko Devojce (Bb)
-C:Traditional
-O:Macedonia
-Z:2018-12-11 Bert Van Vreckem (bert.vanvreckem@gmail.com)
-N:Transcribed from a handwritten score dated 1992-09-25
-M:7/8
-L:1/8
-K:Em
-V:1
-"Em"GFE E2BA | "Am"B2 AA4 | "D" D2D FGAF | "Em"A2G FGGF | \
-V:2
-BAG G2dc | d2 cc4 | d2d d2d2 | e2e e2e2 | \
-V:1
-"Em"GFE E2BA | "Am"B2A A2GA | "B7"B3 FGGF | ("Em"E3 E4) !fine! :| 
-V:2
-BAG G2dc | d2c c4 | B2B B2B2 | E2^D EFGA :| 
-V:1
-|: "Em"E2e d2e2 | d2e B4 | "Am"c2B A2c2 | ("Em"B3 B4) | \
-V:2
-|: e2e e2e2 | e2e e2e2 | A2A A2A2 | e2e e2e2 | \
-V:1
-"Em"E2e d2e2 | d2e B4 | "B7"B2A G2F2 | ("Em"E3 E4) :|
-V:2
-e2e e2e2 | e2e e2e2 | B2B B2B2 | E2^D EFGA :| 
-V:1
-|: "Em"e3 B4 | "Am"c2B A4 | "D7"ccB A2c2 | ("G"B3 B4) | \
-V:2
-|: g3 e4 | e2d c4 | d2d d2d2 | g2g g2g2 | \
-V:1
-"C"c2B "Am"A2c2 | "Em"B2A G2A2 | "B7"B2A GFFE | ("Em"E3 E4) !D.C.! :|
-V:2
-e2d c2e2 | d2c B2c2 | B2B B2B2 | E2^D EFGA :| 

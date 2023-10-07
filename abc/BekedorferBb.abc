@@ -1,0 +1,21 @@
+X:1
+T:Bekedorfer (E)
+O:Germany
+C:Trad.
+Z:Bert Van Vreckem <bert.vanvreckem@gmail.com>, 2018-06-10
+N:For Bb instruments
+M:2/4
+L:1/4
+K:Emaj
+P:A
+|: "E"B G/2B/2 | e B | B/2A/2 G/2A/2 | "A"c B | \
+"E"B G/2B/2 | e d/2c/2 | "B7"B/2A/2 G/2F/2 | "E"E z :|
+P:B
+|: "B"F F | "E"E z | "A"c c | "E"B z | \
+G>A | B>c | "B7"B/2A/2 G/2F/2 | "E"E z :|
+P:C
+|: "E"B/2G/2 E/2G/2 | B/2G/2 E/2G/2 | "B"F F | F2 | \
+"B7"A/2F/2 D/2F/2 | A/2F/2 D/2F/2 | "E"E e | E z :|
+P:D
+|: "B"F/2B,/2 D/2F/2 | "E"G/2B,/2 E/2G/2 | "B"B/2A/2 G/2A/2 | "A"c "B"B | \
+"B"F/2B,/2 D/2F/2 | "E"G/2B,/2 E/2G/2 | "B7"B/2A/2 G/2F/2 | "E"E z :|X:2
