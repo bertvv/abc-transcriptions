@@ -37,6 +37,14 @@ midi_files := $(patsubst abc/%.abc,mid/%.mid,$(sources))
 jpg_files := $(patsubst abc/%.abc,jpg/%.jpg,$(sources))
 png_files := $(patsubst abc/%.abc,png/%.png,$(sources))
 
+# Zip with all pdf's/mids/jpgs
+archive := bertvv-abc-transcriptions
+pdf_archive :=zip/$(archive)-pdf.zip
+mid_archive := zip/$(archive)-mid.zip
+png_archive := zip/$(archive)-png.zip
+jpg_archive := zip/$(archive)-jpg.zip
+archives := $(pdf_archive) $(mid_archive) $(png_archive) $(jpg_archive)
+
 ## --------- Build targets ----------------------------------------------------
 
 help: ## Show this help message (default)
@@ -48,6 +56,24 @@ all-pdf: $(pdf_files) ## Generate PDF sheet music for all tunes
 all-png: $(png_files) ## Generate a PNG file for all tunes
 
 all: all-jpg all-midi all-pdf all-png ## Generate all output formats
+
+$(pdf_archive): all
+	@[ -d zip ] || mkdir -v zip
+	zip $@ pdf/*.pdf
+
+$(mid_archive): all-midi
+	@[ -d zip ] || mkdir -v zip
+	zip $@ mid/*.mid
+
+$(png_archive): all-png
+	@[ -d zip ] || mkdir -v zip
+	zip $@ png/*.png
+
+$(jpg_archive): all-jpg
+	@[ -d zip ] || mkdir -v zip
+	zip $@ jpg/*.jpg
+
+dist: $(archives) ## Create a zip with the generated files (PDF, MIDI, JPG, PNG)
 
 clean: ## Remove all "intermediate" files
 	@echo "Removing intermediate files"
@@ -64,28 +90,28 @@ mrproper: clean ## Remove all generated files
 ## --------- Pattern rules ----------------------------------------------------
 
 ps/%.ps: abc/%.abc
-	@[ -d ps ] || mkdir ps
+	@[ -d ps ] || mkdir -v ps
 	$(abc2ps_cmd) $<
 
 pdf/%.pdf: ps/%.ps
-	@[ -d pdf ] || mkdir pdf
+	@[ -d pdf ] || mkdir -v pdf
 	$(ps2pdf_cmd) $< $@
 
 eps/%.eps: abc/%.abc
-	@[ -d eps ] || mkdir eps
+	@[ -d eps ] || mkdir -v eps
 	$(abc2eps_cmd) $@ $<
 	mv -v eps/*001.eps $@
 
 mid/%.mid: abc/%.abc
-	@[ -d mid ] || mkdir mid
+	@[ -d mid ] || mkdir -v mid
 	$(abc2midi_cmd) $< -o $@
 
 jpg/%.jpg: eps/%.eps
-	@[ -d jpg ] || mkdir jpg
+	@[ -d jpg ] || mkdir -v jpg
 	$(eps2jpg_cmd) $< -trim $@
 
 png/%.png: eps/%.eps
-	@[ -d png ] || mkdir png
+	@[ -d png ] || mkdir -v png
 	$(eps2jpg_cmd) $< -trim -type grayscale $@
 
-.PHONY: help all all-jpg all-midi all-pdf all-png clean mrproper
+.PHONY: help all all-jpg all-midi all-pdf all-png dist clean mrproper
