@@ -1,0 +1,30 @@
+X:1
+T:Noyt en wasser blijden nacht
+A:Flanders
+B:Beyaert 1728, n\u00b0 5, p. 5
+D:'t Kliekske - 't Is Met Dees Koude Winterse Dagen (2000)
+Z:2018-12-11 Bert Van Vreckem (bert.vanvreckem@gmail.com)
+M:C
+L:1/4
+Q:1/4=120
+K:C
+"C"c/d/ e/d/ c G | "C"c "G7"d "C"e2 | e/d/ c/d/ e/f/ g | "F"f3/2 g/ "C"e c | \
+g/f/ g/a/ "F"g/f/ e/f/ | "G7"d3/2 c/ "C"c2 :|
+M:3/2
+Q:1/2=160
+|: "C"e2 e2 e2 | e4 c2 | g2 g2 g2 | g4 e2 | "G"d2 d2 d2 | e3 f g2 | f2 e3 d | d6 |
+d2 d2 d2 | d4 e2 | "C"c2 c2 "G7"f2 | "C"e4 d2 | g2 g2 g2 | "F"a3 g f2 | "G7"ef d3 c | "C"c6 :| 
+
+X:2
+T:Noyt en wasser blijden nacht (Bb)
+Z:2018-12-12 Bert Van Vreckem (bert.vanvreckem@gmail.com)
+M:C
+L:1/4
+Q:1/4=120
+K:Dmaj
+"D"d/2e/2 f/2e/2 d A | "D"d "A7"e "D"f2 | f/2e/2 d/2e/2 f/2g/2 a | "G"g3/2 a/2 "D"f d | \
+a/2g/2 a/2b/2 "G"a/2g/2 f/2g/2 | "A7"e3/2 d/2 "D"d2 :|
+M:3/2
+Q:1/2=160
+|: "D"f2 f2 f2 | f4 d2 | a2 a2 a2 | a4 f2 | "A"e2 e2 e2 | f3 g a2 | g2 f3 e | e6 |
+e2 e2 e2 | e4 f2 | "D"d2 d2 "A7"g2 | "D"f4 e2 | a2 a2 a2 | "G"b3 a g2 | "A7"fg e3 d | "D"d6 :| 

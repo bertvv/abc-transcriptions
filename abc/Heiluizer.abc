@@ -1,0 +1,46 @@
+%%scale 0.6
+
+X:1
+T:Heiluizer
+C:Traditioneel
+O:Achtel (Vlaanderen)
+B:"Achtel Zalig Oord", Vlaams Dansarchief
+Z:Bert Van Vreckem <bert.vanvreckem@gmail.com>
+%%staffsep 35
+M:2/4
+L:1/8
+N:Voorspel AA BB C DD E FF GG / Voorspel AA C DD E FF GG / Voorspel A BBB Voorspel
+K:C
+P:Voorspel
+GG AB|cc Bc|d2 B2|c3 z|
+P:A
+GG AB|cc BA|GG FE|F/E/F D2|GG AB|cc Bc de/d/ cB |[1 c2 A2 :|[2 ( c2 c ) G ||
+P:B
+M:6/8
+|:c2c B2B|A2A G2G|AAA G2G|F2F EEF|G2G GFG |\
+A2A AGA|B2B A2B |[1 [M:2/4][L:1/8] cc c G :|[2 ( c2 c ) B/c/ ||
+P:C
+"_Vlugger"dcBA|GG zc|AA z d/c/|BABc|"_Rall."cc c G ||
+w:****************** Al
+P:D
+M:6/8
+"_Trager"c2c B2B|A2A G2G|AAA G2G|F2F EEF|
+w:is't dat wij maar boer-kens zijn, wij ken-nen de lief-de toch zo fijn, en we 
+G2G GFG|A2A AGA|B2B A2B|[1 [M:2/4] [L:1/8] (c2c) G :|[2 [M:4/4] [L:1/8] (c2c)z zG EG ||
+w:gaan op zwier en we gaan op zwier, en we ma-ken veel ple-zier!_ Al zier!_ En in ons
+P:E
+L:1/4
+(c2 c/)B/ A/G/|BAzF|(A2 A/)G/ A/G/|EzzG|
+w:land_ me-ten ze ver-kens, in hol-_land is't maar vis Zes
+c2 c/B/ A/G/|BAzF|(A2 A/)G/ A/G/| [M:2/4] E4 z4 ||
+w:da-gen moe-ten we wer-ken eer 't~on-_ze zon-dag is.
+P:F
+M:6/8
+|:c2c B2B|A2A G2G|AAA G2G|F2F EEF|
+w:Tie-re-lie-re ver-kens-nie-re ma-ge-re pee-kens zijn niet vet, en we
+G2G GFG|A2A AGA|B2BA2B|(c3 c2)z:|
+w:gaan op zwier en we gaan op zwier en we ma-ken veel ple-zier!_
+P:G
+M:2/2
+L:1/4
+|:GGGc|AAAd/c/|Bfed|ceg|GGGc|AAAd/c/|Bfed|[1cecz:|2 cz (cc/)z/ |]

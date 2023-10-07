@@ -1,0 +1,55 @@
+X:1
+T:Jan mijne man
+C:Trad., Arr. Bert Leemans
+Z:Bert Van Vreckem <bert.vanvreckem@gmail.com>
+M:2/4
+L:1/8
+%%staves {1 (2 3)}
+K:Dm
+V:1 clef=treble
+"Dm"FF/E/ DD|"Am"EC "Dm"DD|"Dm"FF/E/ DD|"Am"EC "Dm"D2|
+w:Jan mij-ne man wou rui-ter wor-den, kon hij ge-ra-ken aan een peerd.
+V:2 clef=treble
+AA/G/ FF|GE FF|AA/G/ FF|GE F2|
+V:3 clef=treble
+D2 A,2|DA, D2|D2 A,2|DA, D2|
+w:Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan
+V:1 clef=treble
+"F"FF/G/ AG|FG A2|F(F/G/) AG|FG A2|
+w:'k~Pak-ke den bran-del uit den heerd, dan heeft Jan mij-ne man een peerd.
+V:2 clef=treble
+AA/B/ cc|cd c2|AA/B/ cc|cd c2|
+V:3 clef=treble
+(F4|F)A F2|(A4|A)B A2|
+w:Jan,___ Jan___
+V:1 clef=treble
+"Dm"FF/E/ DD|"Am"EC "Dm"DD|"Dm"FF/E/ DD|"Am"EC "Dm"D2|]
+w:Jan mij-ne man wou rui-ter wor-den, kon hij ge-ra-ken aan een peerd.
+V:2 clef=treble
+AA/G/ FF|GE FF|AA/G/ FF|GE F2|
+V:3 clef=treble
+D2 A,2|DA, D2|D2 A,2|DA, D2|
+w:Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan, Jan
+W:2. Jan mijne man wou ruiter worden, kon hij geraken aan een zaa'l.
+W:'k Breek er een ei, 'k geef hem de schaal
+W:Dan heeft Jan mijne man een zaa'l
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een zaa'l.
+W:
+W:3. Jan mijne man wou ruiter worden, kon hij geraken aan een spoor
+W:'k Breek er ne pot en 'k geef hem d'oor
+W:Dan heeft Jan mijne man een spoor
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een spoor
+W:
+W:(instr.)
+W:
+W:4. Jan mijne man wou ruiter worden, kon hij geraken aan een toom
+W:'k Scheur er zijn hemd, 'k geef hem de zoom
+W:Dan heeft Jan mijne man een toom
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een toom
+W:
+W:5. Jan mijne man wou ruiter worden, kon hij geraken aan een zweep
+W:'k Scheur er zijne jas, 'k geef hem een reep
+W:Dan heeft Jan mijne man een zweep
+W:Jan mijne man wou ruiter worden, kon hij geraken aan een zweep
+W:
+W:(Str. 1)

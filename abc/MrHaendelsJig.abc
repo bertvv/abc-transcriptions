@@ -1,0 +1,80 @@
+%%scale 0.6
+
+X:1
+T:Mr. Haendel's Jig
+C:Georg Friedrich Haendel
+Z:Bert Van Vreckem <bert.vanvreckem@gmail.com>
+R:Double Jig
+M:6/8
+L:1/8
+Q:3/8=120
+%%MIDI chordprog 25 % Acoustic Guitar (nylon)
+%MIDI gchordoff
+%%staves [ 1 2 3 ]
+K:G
+% Eerste systeem
+% M1
+V:1
+%%MIDI program 24 % Tango Accordion
+%%MIDI control 7 80
+D|:"G"G2B "D7"A2c|Bcd G2A|"G"Bcd "C"cde|"G"d3-d2 d|\
+V:2
+%%MIDI program 24 % Tango Accordion
+%%MIDI control 7 70
+D|:D2G F2A|G3 D2F|GAB ABc|B2D G,2G|\
+V:3 clef=bass
+%%MIDI transpose -12
+%%MIDI program 33 % Acoustic Bass
+A,,|:G,,2z D,2z|G,2z D,2z|G,2z C,2z|G,2z B,2z|\
+% M5
+V:1
+"C"e2A "D"ABc|"G"d2G "Em"GAB|"D"cdc "G"BAB|[1"D"A3-A2D:|[2"D"A3-A2A|
+V:2
+EFG FGA|D2d BAG|F2f g2G|F3-F2D:|F3-F2F|
+V:3 
+C,2z D,2z|G,2z E,2z|F,2z G,2z|D,2C, B,,2A,,:|D,2^C, D,2z|
+% Tweede systeem
+% M9
+V:1
+|:"D"A2A A2"E"B|"Am"cde A2c|"Am"e2e e2"D"f|"Em"g2G G2"D7"A|\
+V:2
+|:FGA D2^G|ABc E2A|cde E2c|BAG cBc|\
+V:3 
+|:D,2z D,2E,|A,2E, C,2A,,|A,2z A,2D,|E,2z E,2D,|\
+% M13
+V:1
+"G"BAG "C"c3-|"D7"cBA "G"d2c|"G"BcB "D7"AGA|[1"G"G3-G2A:|[2"G"G3-G2d[K:Gm]||
+V:2
+D2d edc|f3-fga|d2g A2f|g3-g2F:|g3-g2z[K:Gm]||
+V:3 
+G,,A,,B,, C,3|D,E,F, G,2z|D,2z D,2z|G,2D, G,,2z:|G,2D, G,,2z[K:Gm]||
+% Derde systeem
+% M17
+V:1
+|:"Gm"g2G "F"g2G|"Eb"gab "Bb"g2f|"Cm"edc "D7"BcA|"Gm"Bcd GAB|\
+V:2
+|:GAB AGF|EFG E2D|E2E F2^F|GAB B2G|\
+V:3 
+|:G,2z F,2z|E,2z D,2z|C,2z D,2z|G,,2z B,,2z|\
+% M21
+V:1
+"Cm"cde "F"ABc|"Bb"F2b "Eb"a2g|"Bb"fed "F"cBc|[1"Bb"B3-B2d:|[2"Bb"B3-B2f|
+V:2
+EFG FGA|DEF EFG|F2B F2E|D2E F2z:|D2E F2z|
+V:3 
+C,2z F,2z|B,,2z E,2z|D,2z C,2z|B,,2F, B,2z:|B,,2F, B,2z|
+% Vierde systeem
+% M25
+V:1
+|:"Bb"b2B b2B|"F"ABc F2d|"Gm"g2G g2G|"D7"^FGA "Gm"D2d|\
+V:2
+|:def Bcd|FGA C3|Bcd GAB|D2C B,3|\
+V:3 
+|:B,,2z D,2B,,|F,2z C,2A,,|G,,2z B,,2C,|D,2z G,,2B,,|\
+% M29
+V:1
+"Cm"edc "Eb"BAG|"D"^f=ef "Gm"g=f_e|"D7"dcB AGA|[1"Gm"G3-G2f:|[2"Gm"G3-G2|]
+V:2
+cBA GFE|D=E^FG2_E|D2D ^F2A|B2A G2z:|B2A G2|]
+V:3 
+C,2D, E,3|D,2C, B,,2C,|D,2D, ^F,2F,|G,3 G,,2z:|G,3 G,,2|]
