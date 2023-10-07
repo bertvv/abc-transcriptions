@@ -1,0 +1,9 @@
+# .gitignore
+
+*.ps
+*.eps
+*.png
+*.jpg
+*.pdf
+*.mid
+*.zip
